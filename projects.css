@@ -1,0 +1,96 @@
+body {
+  font-size: 1em;
+}
+
+.card {
+  background-color: #65060f;
+  color: white;
+  padding: 1rem;
+  margin: 2vw;
+  height: 90%;
+  border-radius: 30px;
+  box-shadow: #999999 10px 10px;
+}
+
+.cards {
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  margin-top: 3vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 1000px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+.subheading {
+  padding: 0.5vw;
+  text-align: center;
+  color: #FFF0E1;
+  border-radius: 20px;
+  font-size: 1.7em;
+}
+
+.langs {
+  padding: 0.5vw;
+  text-align: center;
+  color: #7f0b17;
+  background-color: #FFF0E1;
+  border-radius: 20px;
+  font-size: 1.2em;
+}
+
+.subtext {
+  padding: 1vw;
+  text-align: center;
+  color: #7f0b17;
+  background-color: #FFF0E1;
+  border-radius: 20px;
+}
+
+.frame {
+  padding: 1vw;
+  text-align: center;
+  color: #7f0b17;
+  background-color: #FFF0E1;
+  border-radius: 20px;
+}
+
+#title {
+  text-align: center;
+  color: #7f0b17;
+  font-size: 2.4em;
+  padding-top: 0.7em;
+  margin: 0.5em;
+}
+
+#photo {
+  border-radius: 20px;
+  width: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.links {
+  justify-content: center;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 1vw;
+  justify-content: center;
+  text-align: center;
+  color: #FFF0E1;
+  border-radius: 20px;
+  font-size: 1em;
+}
